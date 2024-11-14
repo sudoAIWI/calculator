@@ -1,8 +1,7 @@
 """
-Flask Calculator API
-
-This simple Flask application provides a REST API for performing basic arithmetic operations
+FLASk basic arithmetic operations
 (addition, subtraction, multiplication, and division) on two numbers.
+http://127.0.0.1:5000/calculate?op=sum&arg1=2&arg2=5
 """
 
 from flask import Flask, request
